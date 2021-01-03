@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap');
+@import 'variables';
+
+%montserrat-light {
+  font-family: $primaryFont;
+  font-weight: 300;
+  color: white;
+}
+
+%montserrat-medium {
+  font-family: $primaryFont;
+  font-weight: 500;
+  color: white;
+}
