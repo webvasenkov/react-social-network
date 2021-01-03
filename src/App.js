@@ -1,9 +1,9 @@
 import React from 'react'
 import 'normalize.css'
 import './scss/app.scss';
-import Header from './components/Header.jsx'
-import Home from './pages/Home.jsx'
-import Footer from './components/Footer.jsx'
+import Header from './components/Header'
+import Home from './pages/Home'
+import Footer from './components/Footer'
 
 function App() {
   return (

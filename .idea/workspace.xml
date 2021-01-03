@@ -2,26 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="922dcf20-3662-4ef7-b78e-a72639cac0df" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Footer.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Post/PostForm.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Post/Posts.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Home.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/_default.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/_fonts.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/app.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/components/_about.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/components/_header.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/pages/_home.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/About.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +54,7 @@
       <workItem from="1609658584440" duration="675000" />
       <workItem from="1609659587746" duration="73000" />
       <workItem from="1609660637405" duration="205000" />
-      <workItem from="1609660895699" duration="11504000" />
+      <workItem from="1609660895699" duration="11956000" />
     </task>
     <servers />
   </component>
