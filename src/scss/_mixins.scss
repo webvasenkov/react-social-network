@@ -1,0 +1,13 @@
+@import 'variables';
+
+@mixin primaryWrapper($mw: 100%, $pb: 30px, $fd: column){
+  position: relative;
+  display: flex;
+  flex-direction: $fd;
+  padding: 30px 30px $pb;
+  background: $secondBg;
+  max-width: $mw;
+  width: 100%;
+  border-radius: 10px;
+  margin: 0 auto;
+}

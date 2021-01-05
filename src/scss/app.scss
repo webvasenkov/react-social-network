@@ -1,8 +1,17 @@
 @import 'default';
 @import 'fonts';
 @import 'variables';
-@import 'pages/home';
+
+// === COMPONENTS ===
 @import 'components/header';
 @import 'components/about';
+@import 'components/post';
+@import 'components/footer';
+@import 'components/form';
+@import 'components/messenger';
+
+// === PAGES ===
+@import 'pages/home';
+@import 'pages/messages';
 
 

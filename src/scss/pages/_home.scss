@@ -1,5 +1,12 @@
 .home {
-  &__wrapper {
-    padding: 20px 0 110px;
+  &__container {
+    max-width: 877px;
+    padding: 25px 30px 180px;
+  }
+
+  &__post-form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 55px;
   }
 }

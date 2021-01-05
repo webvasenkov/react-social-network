@@ -1,0 +1,47 @@
+@import '../variables';
+@import '../mixins';
+@import '../fonts';
+
+// === POST ===
+.post {
+  &__wrapper {
+    @include primaryWrapper();
+  }
+
+  &__user {
+    margin: 0 auto
+  }
+
+  &__text {
+    margin-top: 15px;
+  }
+
+  &__date {
+    margin: 15px 0 0 auto;
+    color: $fourthBg;
+    font-size: 14px;
+    line-height: 17.1px;
+  }
+}
+
+// === POSTS ===
+.posts {
+  &__items {
+    margin-top: 55px;
+  }
+
+  &__item {
+    margin-bottom: 30px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+// === POST-FORM ===
+.post-form {
+  &__button {
+    margin: 20px 0 0 auto;
+  }
+}

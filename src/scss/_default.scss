@@ -9,6 +9,7 @@ body {
   background: $primaryBg;
   @extend %montserrat-light;
   font-size: 16px;
+  line-height: 19.5px;
 }
 
 ul {
@@ -22,63 +23,36 @@ li {
 
 h1, h2, h3, h4, h5 {
   margin: 0;
+  font-size: 16px;
+}
+
+p {
+  margin: 0;
 }
 
 button {
   border: none;
   background: none;
   outline: none;
-  padding: 0
+  padding: 0;
+  cursor: pointer;
+  line-height: 0;
+}
+
+input, textarea {
+  outline: none
+}
+
+.app {
+  position: relative;
+  min-height: 100vh;
 }
 
 .container {
   max-width: 1200px;
   padding: 0 90px;
   margin: 0 auto;
-}
-
-.navigation {
-  &__items {
-    display: flex;
-    align-items: center;
-  }
-
-  &__item {
-    position: relative;
-    margin-right: 30px;
-
-    &:last-child {
-      margin-right: 0;
-    }
-
-    &:before {
-      content: '';
-      position: absolute;
-      bottom: -6px;
-      left: 0;
-      right: 0;
-      height: 1px;
-      background: $accentColor;
-      opacity: 0;
-      transition: all .3s ease-in-out;
-    }
-
-    &:hover {
-      &:before {
-        opacity: 1;
-      }
-    }
-  }
-
-  &__item_active {
-    &:before {
-      opacity: 1;
-    }
-  }
-
-  &__item-link, &__item-ico {
-    display: block;
-  }
+  position: relative;
 }
 
 .avatar {
@@ -103,5 +77,13 @@ button {
 
   &__name {
     @extend %montserrat-medium
+  }
+}
+
+.icon-gray {
+  transition: $transitionDefault;
+
+  &:hover {
+    fill: $accentColor;
   }
 }

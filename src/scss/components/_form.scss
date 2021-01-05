@@ -1,0 +1,54 @@
+@import '../variables';
+@import '../fonts';
+
+.textarea {
+  resize: none;
+  padding: 15px;
+  height: 100px;
+  width: 100%;
+  background: $primaryBg;
+  border: 1px solid $fourthBg;
+  border-radius: 10px;
+  @extend %montserrat-light;
+  line-height: 19.5px;
+  transition: $transitionDefault;
+
+  &:focus {
+    border: 1px solid $accentColor;
+  }
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  padding: 15px 30px;
+  border: 1px solid $accentColor;
+  border-radius: 10px;
+  transition: $transitionDefault;
+  cursor: pointer;
+
+  &__icon {
+    margin-right: 10px;
+    transition: $transitionDefault;
+  }
+
+  &__name {
+    @extend %montserrat-light;
+    color: $accentColor;
+    transition: $transitionDefault;
+    font-size: 14px;
+    line-height: 17.1px;
+  }
+
+  &:hover {
+    background: $accentColor;
+
+    .button__name {
+      color: $primaryBg;
+    }
+
+    .button__icon {
+      fill: $primaryBg;
+    }
+  }
+}

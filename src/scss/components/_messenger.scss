@@ -1,0 +1,103 @@
+@import '../variables';
+@import '../fonts';
+
+// === MESSENGER ===
+.messenger {
+  &__wrapper {
+    display: flex;
+  }
+
+  &__dialogs {
+    max-width: 270px;
+    margin-right: 10px;
+  }
+
+  &__correspondence {
+    background: $secondBg;
+    border-radius: 10px;
+    width: 100%;
+  }
+}
+
+// === DIALOGS ===
+.dialog {
+  cursor: pointer;
+  transition: all .3s ease-in-out;
+  border-radius: 10px;
+
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+  }
+
+  &__avatar {
+    margin-right: 10px;
+  }
+
+  &__info {
+    position: relative;
+  }
+
+  &__user-name {
+    @extend %montserrat-medium;
+    font-size: 16px;
+  }
+
+  &__snippet-message {
+    font-size: 12px;
+    line-height: 14.6px;
+    color: $fourthBg;
+    margin-top: 5px;
+  }
+
+  &__date {
+    @extend %montserrat-medium;
+    font-size: 12px;
+    line-height: 14.6px;
+    color: $fourthBg;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  &__selected {
+    background: $secondBg;
+  }
+
+  &:hover {
+    background: $secondBg;
+  }
+}
+
+// === CORRESPONDENCE ===
+.messages {
+  padding: 20px 10px;
+}
+
+.message {
+  padding: 10px 65px 10px 10px;
+  background: $thirdBg;
+  max-width: 350px;
+  border-radius: 10px;
+  position: relative;
+  margin-bottom: 10px;
+
+  &__text {
+    font-size: 14px;
+    line-height: 17.1px;
+  }
+
+  &__time {
+    font-size: 12px;
+    line-height: 14.6px;
+    position: absolute;
+    right: 10px;
+    bottom: 5px;
+    color: $fourthBg;
+  }
+
+  &__sent {
+    margin-left: auto;
+  }
+}

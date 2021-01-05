@@ -1,18 +1,16 @@
 import React from 'react'
-import About from '../components/About'
-import PostForm from '../components/Post/PostForm'
-import Posts from '../components/Post/Posts'
+import About from '../components/about/About'
+import PostForm from '../components/post/PostForm'
+import Posts from '../components/post/Posts'
 
 function Home() {
     return (
         <section className="home">
-            <div className="container">
-                <div className="home__wrapper">
+                <div className="container home__container">
                     <About/>
                     <PostForm/>
                     <Posts/>
                 </div>
-            </div>
         </section>
     )
 }

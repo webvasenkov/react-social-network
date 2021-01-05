@@ -2,10 +2,62 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="922dcf20-3662-4ef7-b78e-a72639cac0df" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/assets/img/shared/default-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/about/About.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/about/Avatar.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/about/Description.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/about/Links.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/form/Button.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/form/Textarea.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/messenger/Messenger.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/messenger/correspondence/Correspondence.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/messenger/correspondence/Form.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/messenger/correspondence/Message.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/messenger/correspondence/Messages.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/messenger/dialog/Dialog.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/messenger/dialog/Dialogs.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/post/Post.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/shared/Footer.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/shared/Header.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Messages.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/components/_footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/components/_form.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/components/_messenger.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/components/_post.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/pages/_messages.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/utils.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/avatar/default.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/shared/default.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/bain.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/about/brain.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/briefcase.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/about/briefcase.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/eye.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/about/eye.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/home.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/header/home.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/header/logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/logout.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/message.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/header/message.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/music.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/header/music.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/news.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/header/news.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/settings.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/header/settings.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/users.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/header/users.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/About.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Post/PostForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/post/PostForm.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Post/Posts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/post/Posts.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/_default.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_default.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/components/_about.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_about.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/components/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/pages/_home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/pages/_home.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +66,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/App.js" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1mY4QfyoGhxWVvQLMTJnaeE15H2" />
   <component name="ProjectViewState">
@@ -24,7 +79,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets/img/shared" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -33,11 +88,19 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.1.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Dev\React Training\react-social-network\src\assets\img\shared" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Dev\React Training\react-social-network\src\components\Post" />
+      <recent name="D:\Dev\React Training\react-social-network\src\components\messenger\correspondence" />
+      <recent name="D:\Dev\React Training\react-social-network\src\components\about" />
+      <recent name="D:\Dev\React Training\react-social-network\src\components\shared" />
+      <recent name="D:\Dev\React Training\react-social-network\src\components" />
+      <recent name="D:\Dev\React Training\react-social-network\src\components\Messenger\Message" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -54,7 +117,11 @@
       <workItem from="1609658584440" duration="675000" />
       <workItem from="1609659587746" duration="73000" />
       <workItem from="1609660637405" duration="205000" />
-      <workItem from="1609660895699" duration="11956000" />
+      <workItem from="1609660895699" duration="12254000" />
+      <workItem from="1609691748448" duration="53000" />
+      <workItem from="1609741132153" duration="17223000" />
+      <workItem from="1609765114659" duration="12000" />
+      <workItem from="1609827701586" duration="16467000" />
     </task>
     <servers />
   </component>
