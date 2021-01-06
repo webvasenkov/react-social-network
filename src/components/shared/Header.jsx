@@ -7,7 +7,7 @@ import users from '../../assets/img/header/users.svg'
 import news from '../../assets/img/header/news.svg'
 import music from '../../assets/img/header/music.svg'
 import settings from '../../assets/img/header/settings.svg'
-import avatar from '../../assets/img/shared/default.png'
+import avatar from '../../assets/img/shared/avatar-1.png'
 
 function Header() {
     return (

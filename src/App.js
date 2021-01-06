@@ -2,20 +2,22 @@ import React from 'react'
 import 'normalize.css'
 import './scss/app.scss';
 import {Route} from 'react-router-dom'
-import Header from './components/shared/Header'
-import Home from './pages/Home'
-import Messages from './pages/Messages'
 import Footer from './components/shared/Footer'
+import Header from './components/shared/Header'
+import {HomePage, MessagePage, UserPage} from './pages'
 
 function App() {
     return (
         <div className="app">
             <Header/>
             <Route path="/home">
-                <Home/>
+                <HomePage/>
             </Route>
             <Route path="/messages">
-                <Messages/>
+                <MessagePage/>
+            </Route>
+            <Route path="/users">
+                <UserPage/>
             </Route>
             <Footer/>
         </div>

@@ -1,13 +1,13 @@
 import React from 'react'
 import classNames from 'classnames'
 
-function Message({className}) {
+function Message({sent}) {
     return (
-        <li className={classNames("message", className)}>
-            <p className="message__text">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        <li className={classNames("messenger__message", {"messenger__message_sent": sent})}>
+            <p className="messenger__message-text">
+                Lorem ipsum dolor sit amet, consec adipisicing elit.
             </p>
-            <span className="message__time">4:42 PM</span>
+            <span className="messenger__message-time">4:42 PM</span>
         </li>
     )
 }

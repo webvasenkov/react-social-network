@@ -5,7 +5,7 @@ function Dialogs() {
     return (
         <ul className="messenger__dialogs">
             <Dialog/>
-            <Dialog className="dialog__selected"/>
+            <Dialog selected={true}/>
             <Dialog/>
             <Dialog/>
         </ul>

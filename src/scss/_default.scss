@@ -8,6 +8,7 @@
 body {
   background: $primaryBg;
   @extend %montserrat-light;
+  color: $accentColor;
   font-size: 16px;
   line-height: 19.5px;
 }
@@ -40,7 +41,10 @@ button {
 }
 
 input, textarea {
-  outline: none
+  outline: none;
+  border: none;
+  resize: none;
+  @extend %montserrat-light;
 }
 
 .app {
@@ -62,21 +66,6 @@ input, textarea {
     height: 40px;
     object-fit: cover;
     display: block;
-  }
-}
-
-.user {
-  &__wrapper {
-    display: flex;
-    align-items: center;
-  }
-
-  &__avatar {
-    margin-right: 15px
-  }
-
-  &__name {
-    @extend %montserrat-medium
   }
 }
 

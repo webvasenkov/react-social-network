@@ -24,21 +24,6 @@
   }
 }
 
-// === POSTS ===
-.posts {
-  &__items {
-    margin-top: 55px;
-  }
-
-  &__item {
-    margin-bottom: 30px;
-
-    &:last-child {
-      margin-bottom: 0;
-    }
-  }
-}
-
 // === POST-FORM ===
 .post-form {
   &__button {

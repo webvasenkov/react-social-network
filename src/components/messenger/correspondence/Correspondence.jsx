@@ -8,7 +8,15 @@ function Correspondence() {
         <div className="messenger__correspondence">
             <Messages>
                 <Message/>
+                <Message sent={true}/>
                 <Message/>
+                <Message/>
+                <Message sent={true}/>
+                <Message/>
+                <Message/>
+                <Message sent={true}/>
+                <Message sent={true}/>
+                <Message sent={true}/>
                 <Message/>
             </Messages>
             <Form/>

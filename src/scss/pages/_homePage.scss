@@ -1,4 +1,4 @@
-.home {
+.home-page {
   &__container {
     max-width: 877px;
     padding: 25px 30px 180px;
@@ -8,5 +8,18 @@
     display: flex;
     flex-direction: column;
     margin-top: 55px;
+  }
+
+  &__posts {
+    margin-top: 55px;
+
+  }
+
+  &__post {
+    margin-bottom: 30px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
   }
 }

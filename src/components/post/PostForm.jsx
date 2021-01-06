@@ -4,7 +4,7 @@ import Button from '../form/Button'
 
 function PostForm() {
     return (
-        <form className="post-form home__post-form">
+        <form className="post-form home-page__post-form">
             <Textarea placeholder="Type post..."/>
             <Button icon={<svg className="button__icon" width="16" height="16" viewBox="0 0 16 16" fill="white"
                                xmlns="http://www.w3.org/2000/svg">

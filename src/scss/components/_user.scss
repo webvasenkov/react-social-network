@@ -1,0 +1,29 @@
+@import '../variables';
+@import '../fonts';
+
+.user {
+  &__wrapper {
+    display: flex;
+    align-items: center;
+  }
+
+  &__avatar {
+    margin-right: 15px
+  }
+
+  &__name {
+    @extend %montserrat-medium
+  }
+
+  &__looking-job {
+    font-size: 12px;
+    line-height: 14.6px;
+    color: $fourthBg;
+  }
+
+  &__is-looking-job {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+  }
+}

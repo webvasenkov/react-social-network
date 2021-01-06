@@ -9,9 +9,11 @@
 @import 'components/footer';
 @import 'components/form';
 @import 'components/messenger';
+@import 'components/user';
 
 // === PAGES ===
-@import 'pages/home';
-@import 'pages/messages';
+@import 'pages/homePage';
+@import 'pages/messagePage';
+@import 'pages/userPage';
 
 

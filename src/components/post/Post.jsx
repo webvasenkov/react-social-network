@@ -1,12 +1,11 @@
 import React from 'react'
-import classNames from 'classnames'
-import avatar from "../../assets/img/shared/default.png";
+import avatar from "../../assets/img/shared/avatar-1.png";
 import {currentDate} from '../../utils/utils'
 
-function Post({className}) {
+function Post() {
     const date = currentDate()
     return (
-        <li className={classNames('post', className)}>
+        <li className='post home-page__post'>
             <div className="post__wrapper">
                 <div className="user post__user">
                     <div className="user__wrapper">
