@@ -7,7 +7,7 @@ function HomePage() {
     return (
         <div className="home-page">
             <div className="container home-page__container">
-                <About/>
+                <About isSettings={false}/>
                 <PostForm/>
                 <Posts/>
             </div>

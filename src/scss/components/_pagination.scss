@@ -1,0 +1,42 @@
+@import '../fonts';
+@import '../variables';
+
+.pagination {
+  &__wrapper {
+    display: flex;
+    align-items: center;
+  }
+
+  &__list {
+    display: flex;
+    padding: 0 15px;
+  }
+
+  &__page-number {
+    cursor: pointer;
+    margin-right: 15px;
+    font-size: 14px;
+    line-height: 17.1px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  &__page-number_selected {
+    @extend %montserrat-medium;
+  }
+
+  &__button {
+    cursor: pointer;
+  }
+
+  &__button_enabled {
+    fill: $accentColor;
+  }
+
+  &__button_disabled {
+    cursor: default;
+    fill: $secondBg;
+  }
+}

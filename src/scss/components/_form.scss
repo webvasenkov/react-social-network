@@ -1,21 +1,29 @@
 @import '../variables';
 @import '../fonts';
 
-.textarea {
-  resize: none;
-  padding: 15px;
-  height: 100px;
-  width: 100%;
-  background: $primaryBg;
-  border: 1px solid $fourthBg;
-  border-radius: 10px;
+.textarea, .input {
   @extend %montserrat-light;
-  line-height: 19.5px;
+  background: $primaryBg;
+  border-radius: 10px;
+  border: 1px solid $fourthBg;
+  color: $accentColor;
   transition: $transitionDefault;
+  width: 100%;
+  line-height: 19.5px;
+  padding: 15px;
+
+  &::placeholder {
+    color: $fourthBg;
+  }
 
   &:focus {
     border: 1px solid $accentColor;
   }
+}
+
+.textarea {
+  resize: none;
+  height: 100px;
 }
 
 .button {

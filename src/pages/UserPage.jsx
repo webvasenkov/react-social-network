@@ -25,7 +25,7 @@ function UserPage() {
                     <User avatar={avatar2} name="Kristen Sayaka" isLookingJob={false} lookingJob=""/>
                     <User avatar={avatar3} name="Marco Liviu" isLookingJob={false} lookingJob=""/>
                 </ul>
-                <Pagination/>
+                <Pagination className="user-page__pagination"/>
             </div>
         </div>
     )

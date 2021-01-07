@@ -1,24 +1,25 @@
 import React from 'react'
 import 'normalize.css'
 import './scss/app.scss';
-import {Route} from 'react-router-dom'
+import {Switch, Route} from 'react-router-dom'
 import Footer from './components/shared/Footer'
 import Header from './components/shared/Header'
-import {HomePage, MessagePage, UserPage} from './pages'
+import {LoginPage, HomePage, MessagePage, UserPage, ConstructionPage} from './pages'
 
 function App() {
     return (
         <div className="app">
             <Header/>
-            <Route path="/home">
-                <HomePage/>
-            </Route>
-            <Route path="/messages">
-                <MessagePage/>
-            </Route>
-            <Route path="/users">
-                <UserPage/>
-            </Route>
+            <Switch>
+                <Route exact path="/" component={LoginPage}/>
+                <Route path="/login" component={LoginPage}/>
+                <Route path="/home" component={HomePage}/>
+                <Route path="/messages" component={MessagePage}/>
+                <Route path="/users" component={UserPage}/>
+                <Route path="/news" component={ConstructionPage}/>
+                <Route path="/music" component={ConstructionPage}/>
+                <Route path="/settings" component={ConstructionPage}/>
+            </Switch>
             <Footer/>
         </div>
     )

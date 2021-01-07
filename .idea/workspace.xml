@@ -2,44 +2,43 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="922dcf20-3662-4ef7-b78e-a72639cac0df" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/img/shared/arrow-active.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/shared/arrow.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/shared/avatar-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/shared/avatar-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/shared/avatar-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/shared/avatar-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/shared/eye.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/shared/Pagination.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/user/User.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/UserPage.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/components/_user.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/pages/_userPage.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/shared/construction.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/shared/login.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/about/Settings.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/form/Input.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/ConstructionPage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/LoginPage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/components/_pagination.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/pages/_constructionPage.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/pages/_loginPage.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/shared/default-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/shared/avatar-6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/shared/default.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/shared/avatar-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/about/Avatar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/about/Avatar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/messenger/correspondence/Correspondence.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/messenger/correspondence/Correspondence.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/shared/arrow-active.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/shared/arrow.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/about/About.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/about/About.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/form/Button.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/form/Button.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/messenger/correspondence/Form.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/messenger/correspondence/Form.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/messenger/correspondence/Message.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/messenger/correspondence/Message.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/messenger/correspondence/Messages.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/messenger/correspondence/Messages.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/messenger/dialog/Dialog.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/messenger/dialog/Dialog.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/messenger/dialog/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/messenger/dialog/Dialogs.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/post/Post.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/post/Post.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/post/PostForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/post/PostForm.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/post/Posts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/post/Posts.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/shared/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shared/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/HomePage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Messages.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/MessagePage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/shared/Pagination.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shared/Pagination.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/HomePage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/HomePage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/UserPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/UserPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/_default.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_default.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/_fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_fonts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_mixins.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_variables.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/components/_about.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_about.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/components/_form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_form.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/components/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_header.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/components/_messenger.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_messenger.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/components/_post.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_post.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/pages/_home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/pages/_homePage.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/pages/_messages.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/pages/_messagePage.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/components/_user.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_user.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/pages/_userPage.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/pages/_userPage.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -123,7 +122,9 @@
       <workItem from="1609765114659" duration="12000" />
       <workItem from="1609827701586" duration="16617000" />
       <workItem from="1609866148993" duration="143000" />
-      <workItem from="1609914382553" duration="16184000" />
+      <workItem from="1609914382553" duration="16399000" />
+      <workItem from="1609948059253" duration="19000" />
+      <workItem from="1610001053097" duration="16190000" />
     </task>
     <servers />
   </component>

@@ -1,7 +1,7 @@
 import React from 'react'
 import classNames from 'classnames'
 
-function Button({icon, className, children}) {
+function Button({className, icon, children}) {
     return (
         <button className={classNames('button', className)}>
             {icon}

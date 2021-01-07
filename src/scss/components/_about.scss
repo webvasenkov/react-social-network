@@ -4,11 +4,16 @@
 
 .about {
   &__wrapper {
-    @include primaryWrapper(610px, 45px, row)
-  }
-
-  &__avatar {
-    margin-right: 30px;
+    position: relative;
+    display: grid;
+    grid-template-columns: 140px max-content;
+    grid-column-gap: 30px;
+    padding: 30px 30px 45px;
+    background: $secondBg;
+    max-width: 610px;
+    width: 100%;
+    border-radius: 10px;
+    margin: 0 auto;
   }
 
   &__avatar-img {

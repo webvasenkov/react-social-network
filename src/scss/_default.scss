@@ -23,6 +23,7 @@ li {
 }
 
 h1, h2, h3, h4, h5 {
+  @extend %montserrat-medium;
   margin: 0;
   font-size: 16px;
 }
@@ -45,6 +46,20 @@ input, textarea {
   border: none;
   resize: none;
   @extend %montserrat-light;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: $secondBg;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: $thirdBg;
+  border-radius: 10px;
 }
 
 .app {

@@ -14,9 +14,9 @@ function Header() {
         <header className="header">
             <div className="container">
                 <div className="header__wrapper">
-                    <div className="logo">
-                        <img className="logo__icon" src={logo} alt="logo"/>
-                    </div>
+                    <NavLink className="logo" to="/home">
+                        <img className="logo__icon header__logo-icon" src={logo} alt="logo"/>
+                    </NavLink>
                     <div className="navigation header__navigation">
                         <ul className="navigation__items">
                             <li className="navigation__item">

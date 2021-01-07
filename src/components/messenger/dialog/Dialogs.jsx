@@ -8,6 +8,9 @@ function Dialogs() {
             <Dialog selected={true}/>
             <Dialog/>
             <Dialog/>
+            <Dialog/>
+            <Dialog/>
+            <Dialog/>
         </ul>
     )
 }

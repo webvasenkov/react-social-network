@@ -10,6 +10,8 @@
 
   &__dialogs {
     max-width: 270px;
+    max-height: 450px;
+    overflow-x: hidden;
     margin-right: 10px;
   }
 
@@ -17,22 +19,19 @@
     background: $secondBg;
     border-radius: 10px;
     width: 100%;
-    position: relative;
-    height: 465px;
+    max-height: 450px;
+    display: flex;
+    flex-direction: column;
   }
 
   &__messages {
     padding: 20px 10px;
-    height: calc(100% - 45px);
     overflow-x: hidden;
   }
 
   &__form {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
     display: flex;
+    position: relative;
   }
 
   &__form-textarea {
@@ -41,9 +40,14 @@
     padding: 14px 45px 14px 10px;
     background: $thirdBg;
     border-radius: 10px;
-    color: white;
+    color: $accentColor;
     font-size: 14px;
     line-height: 17.1px;
+
+
+    &::-webkit-scrollbar {
+      width: 0;
+    }
 
     &::placeholder {
       color: $fourthBg;

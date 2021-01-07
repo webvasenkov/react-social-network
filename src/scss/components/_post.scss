@@ -5,7 +5,15 @@
 // === POST ===
 .post {
   &__wrapper {
-    @include primaryWrapper();
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 30px 30px;
+    background: $secondBg;
+    max-width: 100%;
+    width: 100%;
+    border-radius: 10px;
+    margin: 0 auto;
   }
 
   &__user {
@@ -27,6 +35,7 @@
 // === POST-FORM ===
 .post-form {
   &__button {
-    margin: 20px 0 0 auto;
+    margin-top: 20px;
+    align-self: flex-end;
   }
 }
