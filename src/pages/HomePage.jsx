@@ -1,5 +1,5 @@
 import React from 'react'
-import About from '../components/about/About'
+import About from '../components/user/About'
 import PostForm from '../components/post/PostForm'
 import Posts from '../components/post/Posts'
 

@@ -1,6 +1,7 @@
 import React from 'react'
 import avatar from "../../assets/img/shared/avatar-1.png";
 import {currentDate} from '../../utils/utils'
+import Avatar from "../user/Avatar";
 
 function Post() {
     const date = currentDate()
@@ -9,9 +10,7 @@ function Post() {
             <div className="post__wrapper">
                 <div className="user post__user">
                     <div className="user__wrapper">
-                        <div className="avatar user__avatar">
-                            <img className='avatar__img' src={avatar} alt="avatar"/>
-                        </div>
+                        <Avatar className="user__avatar-img" avatar={avatar}/>
                         <h3 className="user__name">Julia Harris</h3>
                     </div>
                 </div>

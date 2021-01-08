@@ -12,7 +12,7 @@
     background: $secondBg;
     max-width: 100%;
     width: 100%;
-    border-radius: 10px;
+    border-radius: $radius;
     margin: 0 auto;
   }
 
@@ -34,7 +34,7 @@
 
 // === POST-FORM ===
 .post-form {
-  &__button {
+  &__post-button {
     margin-top: 20px;
     align-self: flex-end;
   }

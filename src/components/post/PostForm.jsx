@@ -6,8 +6,8 @@ function PostForm() {
     return (
         <form className="post-form home-page__post-form">
             <Textarea placeholder="Type post..."/>
-            <Button className={'post-form__button'} icon={
-                <svg className="button__icon" width="16" height="16" viewBox="0 0 16 16" fill="#fff"
+            <Button className={'post-form__post-button'} icon={
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="#fff"
                      xmlns="http://www.w3.org/2000/svg">
                     <g clipPath="url(#clip0)">
                         <path

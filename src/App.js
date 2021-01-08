@@ -3,7 +3,7 @@ import 'normalize.css'
 import './scss/app.scss';
 import {Switch, Route} from 'react-router-dom'
 import Footer from './components/shared/Footer'
-import Header from './components/shared/Header'
+import Header from './components/shared/header/Header'
 import {LoginPage, HomePage, MessagePage, UserPage, ConstructionPage} from './pages'
 
 function App() {

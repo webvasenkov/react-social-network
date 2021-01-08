@@ -32,6 +32,11 @@ p {
   margin: 0;
 }
 
+a {
+  text-decoration: none;
+  color: $accentColor;
+}
+
 button {
   border: none;
   background: none;
@@ -54,12 +59,12 @@ input, textarea {
 
 ::-webkit-scrollbar-track {
   background: $secondBg;
-  border-radius: 10px;
+  border-radius: $radius;
 }
 
 ::-webkit-scrollbar-thumb {
   background: $thirdBg;
-  border-radius: 10px;
+  border-radius: $radius;
 }
 
 .app {
@@ -74,6 +79,12 @@ input, textarea {
   position: relative;
 }
 
+.logo {
+  &__icon {
+    display: block;
+  }
+}
+
 .avatar {
   &__img {
     border-radius: 50%;
@@ -81,6 +92,7 @@ input, textarea {
     height: 40px;
     object-fit: cover;
     display: block;
+    margin-right: 15px;
   }
 }
 

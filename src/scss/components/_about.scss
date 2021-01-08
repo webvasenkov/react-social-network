@@ -3,17 +3,54 @@
 @import '../fonts';
 
 .about {
+  max-width: 610px;
+  width: 100%;
+
   &__wrapper {
-    position: relative;
     display: grid;
-    grid-template-columns: 140px max-content;
-    grid-column-gap: 30px;
-    padding: 30px 30px 45px;
+    grid-template-columns: 140px auto;
+    grid-gap: 40px 30px;
+    position: relative;
+    padding: 30px;
     background: $secondBg;
-    max-width: 610px;
-    width: 100%;
-    border-radius: 10px;
-    margin: 0 auto;
+    border-radius: $radius;
+  }
+
+  &__avatar {
+    position: relative;
+    cursor: pointer;
+
+    &:after {
+      content: 'Change';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      opacity: 0;
+      transition: $transitionDefault;
+    }
+
+    &:before {
+      content: '';
+      position: absolute;
+      border-radius: 50%;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      background: $primaryBg;
+      opacity: 0;
+      transition: $transitionDefault;
+    }
+
+    &:hover {
+      &:after {
+        opacity: 1;
+      }
+      &:before {
+        opacity: .4;
+      }
+    }
   }
 
   &__avatar-img {
@@ -57,7 +94,7 @@
   &__social-networks {
     position: absolute;
     right: 30px;
-    bottom: 30px;
+    bottom: 20px;
     display: flex;
   }
 
@@ -69,5 +106,30 @@
     &:last-child {
       margin-right: 0;
     }
+  }
+
+  &__setting-bio {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  &__setting-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    grid-column: 1/3;
+  }
+
+  &__setting-link {
+    max-width: 260px;
+
+    &:nth-child(-n + 2) {
+      margin-bottom: 15px;
+    }
+  }
+
+  &__save-button {
+    padding: 8px 20px !important;
   }
 }

@@ -2,44 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="922dcf20-3662-4ef7-b78e-a72639cac0df" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/img/shared/construction.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/shared/login.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/about/Settings.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/form/Input.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/ConstructionPage.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/LoginPage.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/components/_pagination.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/pages/_constructionPage.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/pages/_loginPage.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/about/user.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/social-networks/facebook.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/social-networks/instagram.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/social-networks/twitter.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/form/InputIcon.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/shared/Logo.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/shared/header/Navigation.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/shared/header/User.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/user/Avatar.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/user/Setting.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/shared/arrow-active.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/shared/arrow.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/about/About.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/about/About.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/about/About.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/user/About.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/about/Avatar.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/about/Description.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/user/Description.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/about/Links.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/user/Links.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/about/Settings.jsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/form/Button.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/form/Button.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/messenger/correspondence/Form.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/messenger/correspondence/Form.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/messenger/dialog/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/messenger/dialog/Dialogs.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/messenger/dialog/Dialog.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/messenger/dialog/Dialog.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/post/Post.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/post/Post.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/post/PostForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/post/PostForm.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/shared/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shared/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/shared/Pagination.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shared/Pagination.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/shared/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shared/header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/user/User.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/user/User.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/HomePage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/HomePage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/UserPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/UserPage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/LoginPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/LoginPage.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/_default.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_default.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/_fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_fonts.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_mixins.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/app.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/components/_about.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_about.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/components/_form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_form.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/components/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_header.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/components/_messenger.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_messenger.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/components/_pagination.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_pagination.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/components/_post.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_post.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_user.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_user.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/pages/_homePage.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/pages/_homePage.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/pages/_loginPage.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/pages/_loginPage.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/pages/_userPage.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/pages/_userPage.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +61,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets/img/shared" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets/img/social-networks" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -75,14 +75,16 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Dev\React Training\react-social-network\src\assets\img\social-networks" />
+      <recent name="D:\Dev\React Training\react-social-network\src\assets" />
       <recent name="D:\Dev\React Training\react-social-network\src\assets\img\shared" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Dev\React Training\react-social-network\src\assets\img\shared" />
       <recent name="D:\Dev\React Training\react-social-network\src\components\user" />
+      <recent name="D:\Dev\React Training\react-social-network\src\components\shared\header" />
+      <recent name="D:\Dev\React Training\react-social-network\src\assets\img\about" />
+      <recent name="D:\Dev\React Training\react-social-network\src\assets\img\shared" />
       <recent name="D:\Dev\React Training\react-social-network\src\components\messenger\correspondence" />
-      <recent name="D:\Dev\React Training\react-social-network\src\components\about" />
-      <recent name="D:\Dev\React Training\react-social-network\src\components\shared" />
     </key>
   </component>
   <component name="RunManager">
@@ -124,7 +126,10 @@
       <workItem from="1609866148993" duration="143000" />
       <workItem from="1609914382553" duration="16399000" />
       <workItem from="1609948059253" duration="19000" />
-      <workItem from="1610001053097" duration="16190000" />
+      <workItem from="1610001053097" duration="16651000" />
+      <workItem from="1610019258301" duration="2557000" />
+      <workItem from="1610036469172" duration="32000" />
+      <workItem from="1610091771061" duration="8878000" />
     </task>
     <servers />
   </component>

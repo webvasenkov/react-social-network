@@ -11,8 +11,8 @@ function LoginPage() {
                         <label className="login-page__title">LogIn</label>
                         <Input className="login-page__input" placeholder="Login"/>
                         <Input className="login-page__input" placeholder="Password" type="password"/>
-                        <Button className="login-page__button" icon={
-                            <svg className="button__icon" width="16" height="16" viewBox="0 0 16 16" fill="#fff"
+                        <Button className="login-page__login-button" icon={
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="#fff"
                                  xmlns="http://www.w3.org/2000/svg">
                                 <g clipPath="url(#clip0)">
                                     <path
