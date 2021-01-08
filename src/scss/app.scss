@@ -1,0 +1,22 @@
+@import 'default';
+@import 'fonts';
+@import 'variables';
+
+// === COMPONENTS ===
+@import 'components/header';
+@import 'components/about';
+@import 'components/post';
+@import 'components/footer';
+@import 'components/form';
+@import 'components/messenger';
+@import 'components/user';
+@import 'components/pagination';
+
+// === PAGES ===
+@import 'pages/homePage';
+@import 'pages/messagePage';
+@import 'pages/userPage';
+@import 'pages/constructionPage';
+@import 'pages/loginPage';
+
+

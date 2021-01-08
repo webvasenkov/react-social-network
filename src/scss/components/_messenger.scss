@@ -1,0 +1,145 @@
+@import '../variables';
+@import '../fonts';
+
+// === MESSENGER ===
+.messenger {
+  &__wrapper {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  &__dialogs {
+    max-width: 270px;
+    max-height: 450px;
+    overflow-x: hidden;
+    margin-right: 10px;
+  }
+
+  &__correspondence {
+    background: $secondBg;
+      border-radius: $radius;
+    width: 100%;
+    max-height: 450px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__messages {
+    padding: 20px 10px;
+    overflow-x: hidden;
+  }
+
+  &__form {
+    display: flex;
+    position: relative;
+  }
+
+  &__form-textarea {
+    width: 100%;
+    min-height: 45px;
+    padding: 14px 45px 14px 10px;
+    background: $thirdBg;
+      border-radius: $radius;
+    color: $accentColor;
+    font-size: 14px;
+    line-height: 17.1px;
+
+
+    &::-webkit-scrollbar {
+      width: 0;
+    }
+
+    &::placeholder {
+      color: $fourthBg;
+    }
+  }
+
+  &__form-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+  }
+
+  &__dialog {
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+      border-radius: $radius;
+
+    &-wrapper {
+      display: flex;
+      align-items: center;
+      padding: 10px;
+    }
+
+    &-avatar-img {
+      margin-right: 10px;
+    }
+
+    &-info {
+      position: relative;
+    }
+
+    &-user-name {
+      @extend %montserrat-medium;
+      font-size: 14px;
+      line-height: 17.1px;
+    }
+
+    &-snippet-message {
+      font-size: 12px;
+      line-height: 14.6px;
+      color: $fourthBg;
+      margin-top: 5px;
+    }
+
+    &-date {
+      @extend %montserrat-medium;
+      font-size: 12px;
+      line-height: 14.6px;
+      color: $fourthBg;
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+
+    &_selected {
+      background: $secondBg;
+    }
+
+    &:hover {
+      background: $secondBg;
+    }
+  }
+
+  &__message {
+    padding: 10px 67.9px 10px 10px;
+    background: $thirdBg;
+    max-width: 350px;
+    border-radius: $radius;
+    position: relative;
+    margin-bottom: 10px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    &-text {
+      font-size: 14px;
+      line-height: 17.1px;
+    }
+
+    &-time {
+      font-size: 12px;
+      line-height: 14.6px;
+      position: absolute;
+      right: 10px;
+      bottom: 5px;
+      color: $fourthBg;
+    }
+
+    &_sent {
+      margin-left: auto;
+    }
+  }
+}

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="922dcf20-3662-4ef7-b78e-a72639cac0df" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/assets/img/about/user.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/social-networks/facebook.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/social-networks/instagram.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/social-networks/twitter.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/form/InputIcon.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/shared/Logo.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/shared/header/Navigation.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/shared/header/User.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/user/Avatar.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/user/Setting.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/about/About.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/user/About.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/about/Avatar.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/about/Description.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/user/Description.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/about/Links.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/user/Links.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/about/Settings.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/form/Button.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/form/Button.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/messenger/correspondence/Form.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/messenger/correspondence/Form.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/messenger/dialog/Dialog.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/messenger/dialog/Dialog.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/post/Post.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/post/Post.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/post/PostForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/post/PostForm.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/shared/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shared/header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/user/User.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/user/User.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/HomePage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/HomePage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/LoginPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/LoginPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/_default.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_default.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/components/_about.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_about.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/components/_form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_form.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/components/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/components/_messenger.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_messenger.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/components/_pagination.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_pagination.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/components/_post.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_post.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/pages/_homePage.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/pages/_homePage.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/pages/_loginPage.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/pages/_loginPage.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/pages/_userPage.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/pages/_userPage.scss" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/App.js" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectId" id="1mY4QfyoGhxWVvQLMTJnaeE15H2" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets/img/social-networks" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.1.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Dev\React Training\react-social-network\src\assets\img\social-networks" />
+      <recent name="D:\Dev\React Training\react-social-network\src\assets" />
+      <recent name="D:\Dev\React Training\react-social-network\src\assets\img\shared" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Dev\React Training\react-social-network\src\components\user" />
+      <recent name="D:\Dev\React Training\react-social-network\src\components\shared\header" />
+      <recent name="D:\Dev\React Training\react-social-network\src\assets\img\about" />
+      <recent name="D:\Dev\React Training\react-social-network\src\assets\img\shared" />
+      <recent name="D:\Dev\React Training\react-social-network\src\components\messenger\correspondence" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="922dcf20-3662-4ef7-b78e-a72639cac0df" name="Default Changelist" comment="" />
+      <created>1609657175686</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1609657175686</updated>
+      <workItem from="1609657178833" duration="544000" />
+      <workItem from="1609657883530" duration="9000" />
+      <workItem from="1609657945328" duration="603000" />
+      <workItem from="1609658584440" duration="675000" />
+      <workItem from="1609659587746" duration="73000" />
+      <workItem from="1609660637405" duration="205000" />
+      <workItem from="1609660895699" duration="12254000" />
+      <workItem from="1609691748448" duration="53000" />
+      <workItem from="1609741132153" duration="17223000" />
+      <workItem from="1609765114659" duration="12000" />
+      <workItem from="1609827701586" duration="16617000" />
+      <workItem from="1609866148993" duration="143000" />
+      <workItem from="1609914382553" duration="16399000" />
+      <workItem from="1609948059253" duration="19000" />
+      <workItem from="1610001053097" duration="16651000" />
+      <workItem from="1610019258301" duration="2557000" />
+      <workItem from="1610036469172" duration="32000" />
+      <workItem from="1610091771061" duration="8878000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

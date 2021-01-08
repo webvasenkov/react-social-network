@@ -1,0 +1,90 @@
+@import '../variables';
+@import '../fonts';
+
+.textarea, .input {
+  @extend %montserrat-light;
+  background: $primaryBg;
+  border-radius: $radius;
+  border: 1px solid $fourthBg;
+  color: $accentColor;
+  transition: $transitionDefault;
+  width: 100%;
+  line-height: 19.5px;
+  padding: 15px;
+
+  &::placeholder {
+    color: $fourthBg;
+  }
+
+  &:focus {
+    border: 1px solid $accentColor;
+  }
+}
+
+.textarea {
+  resize: none;
+  height: 100px;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  padding: 15px 30px;
+  border: 1px solid $accentColor;
+  border-radius: $radius;
+  transition: $transitionDefault;
+  cursor: pointer;
+
+  &__icon svg {
+    margin-right: 10px;
+    transition: $transitionDefault;
+  }
+
+  &__name {
+    @extend %montserrat-light;
+    color: $accentColor;
+    transition: $transitionDefault;
+    font-size: 14px;
+    line-height: 17.1px;
+  }
+
+  &:hover {
+    background: $accentColor;
+
+    .button__name {
+      color: $primaryBg;
+    }
+
+    .button__icon svg {
+      fill: $primaryBg;
+    }
+  }
+}
+
+.input-icon {
+  width: 100%;
+
+  &__wrapper {
+    display: flex;
+    align-items: center;
+  }
+
+  &__icon {
+    width: 16px;
+    height: 16px;
+    margin-right: 15px;
+  }
+
+  &__input {
+    background: $thirdBg;
+    border-radius: $radius;
+    padding: 10px;
+    font-size: 14px;
+    color: $accentColor;
+    width: 100%;
+
+    &::placeholder {
+      color: $fourthBg;
+    }
+  }
+}
