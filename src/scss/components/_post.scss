@@ -34,6 +34,10 @@
 
 // === POST-FORM ===
 .post-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
   &__post-button {
     margin-top: 20px;
     align-self: flex-end;

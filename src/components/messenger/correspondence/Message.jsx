@@ -1,13 +1,13 @@
 import React from 'react'
 import classNames from 'classnames'
 
-function Message({sent}) {
+function Message({text, time, isSent}) {
     return (
-        <li className={classNames("messenger__message", {"messenger__message_sent": sent})}>
+        <li className={classNames("messenger__message", {"messenger__message_sent": isSent})}>
             <p className="messenger__message-text">
-                Lorem ipsum dolor sit amet, consec adipisicing elit.
+                {text}
             </p>
-            <span className="messenger__message-time">4:42 PM</span>
+            <span className="messenger__message-time">{time}</span>
         </li>
     )
 }

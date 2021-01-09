@@ -60,19 +60,15 @@
       transition: $transitionDefault;
     }
 
-    &:hover {
-      &:before {
-        opacity: 1;
-        width: 100%;
-      }
+    &:hover:before {
+      opacity: 1;
+      width: 100%;
     }
+  }
 
-    &.active {
-      &:before {
-        opacity: 1;
-        width: 100%;
-      }
-    }
+  &__item-link_active:before {
+    opacity: 1;
+    width: 100%;
   }
 
   &__item-link, &__item-ico {

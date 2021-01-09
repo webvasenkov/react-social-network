@@ -1,16 +1,15 @@
 import React from 'react'
 import Dialog from './Dialog'
 
-function Dialogs() {
+function Dialogs({dialogData}) {
     return (
         <ul className="messenger__dialogs">
-            <Dialog/>
-            <Dialog selected={true}/>
-            <Dialog/>
-            <Dialog/>
-            <Dialog/>
-            <Dialog/>
-            <Dialog/>
+            {
+                dialogData.map(dialog => {
+                    let data = {...dialog, key: dialog.id}
+                    return <Dialog {...data}/>
+                })
+            }
         </ul>
     )
 }

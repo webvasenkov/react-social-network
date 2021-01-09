@@ -2,12 +2,12 @@ import React from 'react'
 import Dialogs from './dialog/Dialogs'
 import Correspondence from './correspondence/Correspondence'
 
-function Messenger() {
+function Messenger({messagePage}) {
     return (
         <div className="messenger">
             <div className="messenger__wrapper">
-                <Dialogs/>
-                <Correspondence/>
+                <Dialogs dialogData={messagePage.dialogData}/>
+                <Correspondence messageData={messagePage.messageData}/>
             </div>
         </div>
     )

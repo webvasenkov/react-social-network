@@ -12,32 +12,32 @@ function Navigation() {
         <div className="navigation header__navigation">
             <ul className="navigation__items">
                 <li className="navigation__item">
-                    <NavLink className="navigation__item-link" to="home">
+                    <NavLink className="navigation__item-link" activeClassName="navigation__item-link_active" to="home">
                         <img className="navigation__item-ico" src={home} alt="home"/>
                     </NavLink>
                 </li>
                 <li className="navigation__item">
-                    <NavLink className="navigation__item-link" to="messages">
+                    <NavLink className="navigation__item-link" activeClassName="navigation__item-link_active" to="messages">
                         <img className="navigation__item-ico" src={message} alt="message"/>
                     </NavLink>
                 </li>
                 <li className="navigation__item">
-                    <NavLink className="navigation__item-link" to="users">
+                    <NavLink className="navigation__item-link" activeClassName="navigation__item-link_active" to="users">
                         <img className="navigation__item-ico" src={users} alt="users"/>
                     </NavLink>
                 </li>
                 <li className="navigation__item">
-                    <NavLink className="navigation__item-link" to="news">
+                    <NavLink className="navigation__item-link" activeClassName="navigation__item-link_active" to="news">
                         <img className="navigation__item-ico" src={news} alt="news"/>
                     </NavLink>
                 </li>
                 <li className="navigation__item">
-                    <NavLink className="navigation__item-link" to="music">
+                    <NavLink className="navigation__item-link" activeClassName="navigation__item-link_active" to="music">
                         <img className="navigation__item-ico" src={music} alt="music"/>
                     </NavLink>
                 </li>
                 <li className="navigation__item">
-                    <NavLink className="navigation__item-link" to="settings">
+                    <NavLink className="navigation__item-link" activeClassName="navigation__item-link_active" to="settings">
                         <img className="navigation__item-ico" src={settings} alt="settings"/>
                     </NavLink>
                 </li>

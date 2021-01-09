@@ -2,11 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="922dcf20-3662-4ef7-b78e-a72639cac0df" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/redux/storeStatic.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/user/Description.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/user/Description.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_about.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_about.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_user.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_user.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/messenger/Messenger.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/messenger/Messenger.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/messenger/correspondence/Correspondence.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/messenger/correspondence/Correspondence.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/messenger/correspondence/Message.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/messenger/correspondence/Message.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/messenger/dialog/Dialog.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/messenger/dialog/Dialog.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/messenger/dialog/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/messenger/dialog/Dialogs.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/shared/header/Navigation.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shared/header/Navigation.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/MessagePage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/MessagePage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/components/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/components/_messenger.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_messenger.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/components/_post.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_post.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/pages/_homePage.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/pages/_homePage.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,11 +109,23 @@
       <workItem from="1610036469172" duration="32000" />
       <workItem from="1610091771061" duration="8878000" />
       <workItem from="1610112510821" duration="2998000" />
+      <workItem from="1610174670462" duration="13642000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
