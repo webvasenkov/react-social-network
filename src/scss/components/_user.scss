@@ -2,10 +2,10 @@
 @import '../fonts';
 
 .user {
+  cursor: pointer;
   &__wrapper {
     display: flex;
     align-items: center;
-    cursor: pointer;
   }
 
   &__avatar {

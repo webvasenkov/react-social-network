@@ -5,7 +5,7 @@ import eye from "../../assets/img/about/eye.svg";
 
 function Description() {
     return (
-        <div className="about__description">
+        <div className="about__bio">
             <h3 className="about__name">Julia Harris</h3>
             <ul className="about__items">
                 <li className="about__item">
