@@ -29,7 +29,7 @@ export const store = {
                 userName: 'Chrissie Antal',
                 snippetMessage: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
                 date: '01/07/2021',
-                isSelected: true
+                isSelected: false
             },
             {
                 id: '4',
@@ -57,26 +57,26 @@ export const store = {
                 isSent: false
             },
             {
-                id: '1',
+                id: '2',
                 text: 'Lorem ipsum dolor sit amet, consec adipisicing elit.',
                 time: '4:42',
                 isSent: false
             },
             {
-                id: '1',
+                id: '3',
                 text: 'Lorem ipsum dolor sit amet, consec adipisicing elit.',
                 time: '4:42',
                 isSent: false
             },
             {
-                id: '1',
+                id: '4',
                 text: 'Lorem ipsum dolor sit amet, consec adipisicing elit.',
                 time: '4:42',
                 isSent: true
             },
             {
-                id: '1',
-                text: 'Lorem ipsum dolor sit amet, consec adipisicing elit. Lorem ipsum dolor sit amet, consec adipisicing elit.',
+                id: '5',
+                text: 'Lorem ipsum dolor sit amet, consec adipisicing elit.',
                 time: '4:42',
                 isSent: false
             },
