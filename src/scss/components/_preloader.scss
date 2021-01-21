@@ -1,0 +1,40 @@
+@import '../variables';
+
+.preloader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+
+  &__icon {
+    fill: $accentColor;
+    animation-name: infiniteSpinning;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+}
+
+@keyframes infiniteSpinning {
+  0% {
+    fill: $accentColor;
+    transform: rotate(0deg) scale(1);
+  }
+  25% {
+    fill: $greenBg;
+    transform: rotate(90deg) scale(0.85);
+  }
+  50% {
+    fill: $purpleBg;
+    transform: rotate(180deg) scale(1);
+  }
+  75% {
+    fill: $yellowBg;
+    transform: rotate(270deg) scale(0.85);
+  }
+  100% {
+    fill: $accentColor;
+    transform: rotate(360deg) scale(1);
+  }
+}

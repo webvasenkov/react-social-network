@@ -1,32 +1,46 @@
 import React from 'react'
-import 'normalize.css'
 import './scss/app.scss'
-import {Switch, Route} from 'react-router-dom'
+import {connect} from 'react-redux'
+import {authMe, authLogout} from './redux/reducers/authReducer'
+import {Route, Switch, Redirect} from 'react-router-dom'
 import Footer from './components/shared/Footer'
 import Header from './components/shared/header/Header'
-import {LoginPage, HomePage, ConstructionPage} from './pages'
-const UserPage = React.lazy(() => import('./pages/UserPage'))
-const MessagePage = React.lazy(() => import('./pages/MessagePage'))
+import Preloader from './components/shared/Preloader'
+import {LoginPageContainer, ProfilePageContainer, ConstructionPage, NotFoundPage} from './pages'
 
-function App({store}) {
-    return (
-        <div className="app">
-            <Header/>
-            <Switch>
-                <React.Suspense fallback="loading...">
-                    <Route exact path="/" component={() => <LoginPage/>}/>
-                    <Route path="/login" component={() => <LoginPage/>}/>
-                    <Route path="/home" component={() => <HomePage/>}/>
-                    <Route path="/messages" component={() => <MessagePage messagePage={store.messagePage}/>}/>
-                    <Route path="/users" component={() => <UserPage/>}/>
-                    <Route path="/news" component={() => <ConstructionPage/>}/>
-                    <Route path="/music" component={() => <ConstructionPage/>}/>
-                    <Route path="/settings" component={() => <ConstructionPage/>}/>
+const UsersPageContainer = React.lazy(() => import('./pages/containers/UsersPageContainer'))
+const MessagesPageContainer = React.lazy(() => import('./pages/containers/MessagesPageContainer'))
+
+class App extends React.Component {
+    componentDidMount() {
+        this.props.authMe()
+    }
+
+    render() {
+        if (!this.props.isLoading) {
+            return <Preloader/>
+        }
+
+        return (
+            <div className="app">
+                <Header isAuth={this.props.isAuth} authLogout={this.props.authLogout}/>
+                <React.Suspense fallback={Preloader}>
+                    <Switch>
+                        <Route exact path="/" component={ProfilePageContainer}/>
+                        <Route path="/login" component={LoginPageContainer}/>
+                        <Route path={["/profile", "/users/:id"]} component={ProfilePageContainer}/>
+                        <Route path="/messages" component={MessagesPageContainer}/>
+                        <Route exact path="/users" component={UsersPageContainer}/>
+                        <Route path="/news" component={ConstructionPage}/>
+                        <Route path="/music" component={ConstructionPage}/>
+                        <Route path="/settings" component={ConstructionPage}/>
+                        <Route component={NotFoundPage}/>
+                    </Switch>
                 </React.Suspense>
-            </Switch>
-            <Footer/>
-        </div>
-    )
+                <Footer/>
+            </div>
+        )
+    }
 }
 
-export default App;
+export default connect(({auth}) => ({isLoading: auth.isLoading, isAuth: auth.isAuth}), {authMe, authLogout})(App);

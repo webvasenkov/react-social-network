@@ -2,22 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="922dcf20-3662-4ef7-b78e-a72639cac0df" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/redux/storeStatic.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/ConstructionPage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/LoginPage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/MessengerPage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/ProfilePage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/UsersPage.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/messenger/Messenger.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/messenger/Messenger.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/messenger/correspondence/Correspondence.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/messenger/correspondence/Correspondence.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/messenger/correspondence/Message.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/messenger/correspondence/Message.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/messenger/dialog/Dialog.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/messenger/dialog/Dialog.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/messenger/dialog/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/messenger/dialog/Dialogs.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/shared/header/Navigation.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shared/header/Navigation.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/MessagePage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/MessagePage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_messenger.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_messenger.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_post.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_post.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/pages/_homePage.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/pages/_homePage.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +20,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/App.js" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/App.js" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectId" id="1mY4QfyoGhxWVvQLMTJnaeE15H2" />
   <component name="ProjectViewState">
@@ -39,7 +31,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets/img/social-networks" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets/img" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -47,25 +39,30 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="inlay.hints.JavaScript" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.1.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Dev\React Training\react-social-network\src\assets\img\social-networks" />
-      <recent name="D:\Dev\React Training\react-social-network\src\assets" />
+      <recent name="D:\Dev\React Training\react-social-network\src\assets\img" />
+      <recent name="D:\Dev\React Training\react-social-network\src\components\icons" />
+      <recent name="D:\Dev\React Training\react-social-network\src\assets\icons" />
       <recent name="D:\Dev\React Training\react-social-network\src\assets\img\shared" />
+      <recent name="D:\Dev\React Training\react-social-network\src\assets\img\about" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Dev\React Training\react-social-network\src\assets\img" />
       <recent name="D:\Dev\React Training\react-social-network\src\components\user" />
-      <recent name="D:\Dev\React Training\react-social-network\src\components\shared\header" />
-      <recent name="D:\Dev\React Training\react-social-network\src\assets\img\about" />
-      <recent name="D:\Dev\React Training\react-social-network\src\assets\img\shared" />
-      <recent name="D:\Dev\React Training\react-social-network\src\components\messenger\correspondence" />
+      <recent name="D:\Dev\React Training\react-social-network\src\components\form" />
+      <recent name="D:\Dev\React Training\react-social-network\src\components\form\control" />
+      <recent name="D:\Dev\React Training\react-social-network\src\components\containers" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Node.js.validate.js">
+    <configuration name="validate.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/utils/validate.js" working-dir="$PROJECT_DIR$/src/utils">
+      <method v="2" />
+    </configuration>
     <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -78,6 +75,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.validate.js" />
         <item itemvalue="npm.start" />
       </list>
     </recent_temporary>
@@ -109,7 +107,28 @@
       <workItem from="1610036469172" duration="32000" />
       <workItem from="1610091771061" duration="8878000" />
       <workItem from="1610112510821" duration="2998000" />
-      <workItem from="1610174670462" duration="13642000" />
+      <workItem from="1610174670462" duration="16177000" />
+      <workItem from="1610202143577" duration="89000" />
+      <workItem from="1610213049818" duration="79000" />
+      <workItem from="1610264745525" duration="24285000" />
+      <workItem from="1610297587319" duration="4893000" />
+      <workItem from="1610346544541" duration="12015000" />
+      <workItem from="1610367867200" duration="23000" />
+      <workItem from="1610378904538" duration="6311000" />
+      <workItem from="1610432111232" duration="16711000" />
+      <workItem from="1610470172523" duration="7885000" />
+      <workItem from="1610519051295" duration="26256000" />
+      <workItem from="1610555325375" duration="6599000" />
+      <workItem from="1610602975195" duration="37142000" />
+      <workItem from="1610691671157" duration="8242000" />
+      <workItem from="1610702490323" duration="27614000" />
+      <workItem from="1610778715449" duration="40410000" />
+      <workItem from="1610950470184" duration="25249000" />
+      <workItem from="1611048624775" duration="16384000" />
+      <workItem from="1611077773638" duration="604000" />
+      <workItem from="1611128685299" duration="36000" />
+      <workItem from="1611134941476" duration="11514000" />
+      <workItem from="1611234630979" duration="7153000" />
     </task>
     <servers />
   </component>
@@ -126,6 +145,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

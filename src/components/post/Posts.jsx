@@ -1,12 +1,12 @@
 import React from 'react'
 import Post from './Post'
 
-function Posts() {
+function Posts({postsData, profileAuth}) {
+    const posts = postsData.map(post => <Post key={post.id} {...post} profileAuth={profileAuth}/>)
+
     return (
-        <ul className="posts home-page__posts">
-            <Post/>
-            <Post/>
-            <Post/>
+        <ul className="posts profile-page__posts">
+            {posts}
         </ul>
     )
 }

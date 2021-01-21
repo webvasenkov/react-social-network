@@ -1,0 +1,15 @@
+@import "../variables";
+@import "../fonts";
+
+.not-found-page {
+  &__container {
+    padding: 25px 30px 180px;
+  }
+
+  &__title {
+    @extend %montserrat-bold;
+    text-align: center;
+    font-size: 55px;
+    color: $secondBg;
+  }
+}

@@ -7,17 +7,21 @@
   width: 100%;
 
   &__wrapper {
-    display: grid;
-    grid-template-columns: 140px auto;
-    grid-gap: 40px 30px;
     position: relative;
-    padding: 30px;
     background: $secondBg;
+    padding: 30px;
     border-radius: $radius;
+  }
+
+  &__bio {
+    display: flex;
   }
 
   &__avatar {
     position: relative;
+  }
+
+  &__avatar_edit-mode {
     cursor: pointer;
 
     &:after {
@@ -47,6 +51,7 @@
       &:after {
         opacity: 1;
       }
+
       &:before {
         opacity: .4;
       }
@@ -59,8 +64,8 @@
     display: block;
   }
 
-  &__bio {
-    max-width: 380px;
+  &__bio-description {
+    margin-left: 30px
   }
 
   &__name {
@@ -129,7 +134,36 @@
     }
   }
 
-  &__save-button {
+  &__setting-button {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+  }
+
+  &__setting-icon {
+    width: 14px;
+    height: 14px;
+  }
+
+  &__update-button {
     padding: 8px 20px !important;
+  }
+
+  &__updated-about {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: $secondBg;
+    border-radius: $radius;
+    opacity: 0.5;
+  }
+
+  &__user-form {
+    display: grid;
+    grid-template-columns: min-content;
+    grid-gap: 50px 30px;
   }
 }

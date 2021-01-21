@@ -1,44 +1,45 @@
 import React from 'react'
-import {NavLink} from "react-router-dom";
-import home from "../../../assets/img/header/home.svg";
-import message from "../../../assets/img/header/message.svg";
-import users from "../../../assets/img/header/users.svg";
-import news from "../../../assets/img/header/news.svg";
-import music from "../../../assets/img/header/music.svg";
-import settings from "../../../assets/img/header/settings.svg";
+import {NavLink} from 'react-router-dom';
+import {Home, Message, Users, News, Music, Settings} from '../../icons'
 
 function Navigation() {
     return (
         <div className="navigation header__navigation">
             <ul className="navigation__items">
                 <li className="navigation__item">
-                    <NavLink className="navigation__item-link" activeClassName="navigation__item-link_active" to="home">
-                        <img className="navigation__item-ico" src={home} alt="home"/>
+                    <NavLink className="navigation__item-link" activeClassName="navigation__item-link_active"
+                             to="/profile">
+                        <Home className="icon-default"/>
                     </NavLink>
                 </li>
                 <li className="navigation__item">
-                    <NavLink className="navigation__item-link" activeClassName="navigation__item-link_active" to="messages">
-                        <img className="navigation__item-ico" src={message} alt="message"/>
+                    <NavLink className="navigation__item-link" activeClassName="navigation__item-link_active"
+                             to="/messages">
+                        <Message className="icon-default"/>
                     </NavLink>
                 </li>
                 <li className="navigation__item">
-                    <NavLink className="navigation__item-link" activeClassName="navigation__item-link_active" to="users">
-                        <img className="navigation__item-ico" src={users} alt="users"/>
+                    <NavLink className="navigation__item-link" activeClassName="navigation__item-link_active"
+                             to="/users">
+                        <Users className="icon-default"/>
                     </NavLink>
                 </li>
                 <li className="navigation__item">
-                    <NavLink className="navigation__item-link" activeClassName="navigation__item-link_active" to="news">
-                        <img className="navigation__item-ico" src={news} alt="news"/>
+                    <NavLink className="navigation__item-link" activeClassName="navigation__item-link_active"
+                             to="/news">
+                        <News className="icon-default"/>
                     </NavLink>
                 </li>
                 <li className="navigation__item">
-                    <NavLink className="navigation__item-link" activeClassName="navigation__item-link_active" to="music">
-                        <img className="navigation__item-ico" src={music} alt="music"/>
+                    <NavLink className="navigation__item-link" activeClassName="navigation__item-link_active"
+                             to="/music">
+                        <Music className="icon-default"/>
                     </NavLink>
                 </li>
                 <li className="navigation__item">
-                    <NavLink className="navigation__item-link" activeClassName="navigation__item-link_active" to="settings">
-                        <img className="navigation__item-ico" src={settings} alt="settings"/>
+                    <NavLink className="navigation__item-link" activeClassName="navigation__item-link_active"
+                             to="/settings">
+                        <Settings className="icon-default"/>
                     </NavLink>
                 </li>
             </ul>

@@ -1,20 +1,17 @@
 import React from 'react'
 import Messages from './Messages'
 import Message from './Message'
-import Form from './Form'
+import MessengerForm from '../../form/MessengerForm'
 
-function Correspondence({messageData}) {
+function Correspondence({messagesData, sendMessage}) {
+    const messages = messagesData.map(message => <Message key={message.id} {...message}/>)
+
     return (
         <div className="messenger__correspondence">
             <Messages>
-                {
-                    messageData.map(message => {
-                        let data = {...message, key: message.id}
-                        return <Message {...data}/>
-                    })
-                }
+                {messages}
             </Messages>
-            <Form/>
+            <MessengerForm sendMessage={sendMessage}/>
         </div>
     )
 }
