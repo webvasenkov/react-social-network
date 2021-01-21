@@ -1,12 +1,13 @@
 import React from 'react'
-import construction from '../assets/img/shared/construction.svg'
+import {Construction} from '../components/icons'
+import {withAuthRedirect} from '../components/hoc/withAuthRedirect';
 
 function ConstructionPage() {
     return (
         <div className="construction-page">
             <div className="container construction-page__container">
                 <div className="construction-page__wrapper">
-                    <img className="construction-page__icon" src={construction} alt="construction"/>
+                    <Construction className="construction-page__icon"/>
                     <h2 className="construction-page__title">This page is <br/> under construction</h2>
                 </div>
             </div>
@@ -14,4 +15,4 @@ function ConstructionPage() {
     )
 }
 
-export default ConstructionPage;
+export default withAuthRedirect(ConstructionPage);

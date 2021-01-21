@@ -19,6 +19,10 @@
   &:focus {
     border: 1px solid $accentColor;
   }
+
+  &_error {
+    border-left: 10px solid $purpleBg !important;
+  }
 }
 
 .textarea {
@@ -55,8 +59,10 @@
       color: $primaryBg;
     }
 
-    .button__icon svg {
-      fill: $primaryBg;
+    .button__icon {
+      svg {
+        fill: $primaryBg;
+      }
     }
   }
 }
@@ -88,3 +94,15 @@
     }
   }
 }
+
+.error {
+  color: transparent;
+  display: block;
+  font-size: 14px;
+  transition: $transitionDefault;
+
+  &_display {
+    color: $purpleBg;
+  }
+}
+

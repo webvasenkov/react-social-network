@@ -1,0 +1,32 @@
+@import '../variables';
+
+.icon-default {
+  fill: $accentColor;
+  display: block;
+}
+
+.icon-gray {
+  fill: $fourthBg;
+  display: block;
+
+  &_has-hover {
+    transition: $transitionDefault;
+    cursor: pointer;
+
+    &:hover {
+      fill: $accentColor;
+    }
+  }
+}
+
+.icon-green {
+  fill: $greenBg;
+}
+
+.icon-yellow {
+  fill: $yellowBg;
+}
+
+.icon-purple {
+  fill: $purpleBg;
+}

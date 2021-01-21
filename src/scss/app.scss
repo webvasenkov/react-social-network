@@ -1,3 +1,4 @@
+@import '~normalize.css';
 @import 'default';
 @import 'fonts';
 @import 'variables';
@@ -11,12 +12,15 @@
 @import 'components/messenger';
 @import 'components/user';
 @import 'components/pagination';
+@import 'components/preloader';
+@import 'components/icons';
 
 // === PAGES ===
-@import 'pages/homePage';
-@import 'pages/messagePage';
-@import 'pages/userPage';
+@import 'pages/profilePage';
+@import 'pages/messagesPage';
+@import 'pages/usersPage';
 @import 'pages/constructionPage';
 @import 'pages/loginPage';
+@import 'pages/notFoundPage';
 
 

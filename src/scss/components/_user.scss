@@ -2,14 +2,9 @@
 @import '../fonts';
 
 .user {
-  cursor: pointer;
   &__wrapper {
     display: flex;
     align-items: center;
-  }
-
-  &__avatar {
-    margin-right: 15px
   }
 
   &__name {
@@ -22,7 +17,7 @@
     color: $fourthBg;
   }
 
-  &__is-looking-job {
+  &__button {
     position: absolute;
     right: 10px;
     top: 10px;

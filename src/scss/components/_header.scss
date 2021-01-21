@@ -10,17 +10,24 @@
     padding: 30px 0;
   }
 
+  &__logo {
+    &_center {
+      margin: 0 auto;
+    }
+  }
+
   &__user {
     display: flex;
     align-items: center;
   }
 
-  &__logout-button {
-    margin-left: 30px;
+  &__user-avatar {
+    margin-right: 15px;
   }
 
-  &__logout-icon {
-    display: block;
+  &__logout-button {
+    margin-left: 30px;
+    display: flex;
   }
 
   &__navigation {
@@ -69,9 +76,5 @@
   &__item-link_active:before {
     opacity: 1;
     width: 100%;
-  }
-
-  &__item-link, &__item-ico {
-    display: block;
   }
 }

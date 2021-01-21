@@ -1,26 +1,51 @@
 import React from 'react'
-import brain from "../../assets/img/about/brain.svg";
-import briefcase from "../../assets/img/about/briefcase.svg";
-import eye from "../../assets/img/about/eye.svg";
+import {Eye, Brain, Briefcase, Settings} from '../icons';
+import Avatar from "./Avatar";
+import SocialNetworks from './SocialNetworks';
 
-function Description() {
+function Description({
+                         photos,
+                         fullName,
+                         profileStatus,
+                         lookingForAJob,
+                         lookingForAJobDescription,
+                         contacts,
+                         handleClickSetting,
+                         isProfileAuth,
+                     }) {
+    const lookingJob = lookingForAJob ? 'Looking for a job' : 'Not looking for a job'
+    const aboutJob = lookingForAJob &&
+        <li className="about__item">
+            <span className="about__item-icon"><Eye className="icon-yellow"/></span>
+            <span className="about__item-text">{lookingForAJobDescription}</span>
+        </li>
+    const status = profileStatus || `Doesn't think about anything`
+    const settingButton = isProfileAuth &&
+        <span className="about__setting-button" onClick={handleClickSetting}>
+                    <Settings className="icon-gray icon-gray_has-hover about__setting-icon"/>
+        </span>
+
     return (
         <div className="about__bio">
-            <h3 className="about__name">Julia Harris</h3>
-            <ul className="about__items">
-                <li className="about__item">
-                    <img className="about__item-icon" src={brain} alt="brain"/>
-                    <span className="about__item-text">Doesn't think about anything</span>
-                </li>
-                <li className="about__item">
-                    <img className="about__item-icon" src={briefcase} alt="briefcase"/>
-                    <span className="about__item-text">Looking for a job</span>
-                </li>
-                <li className="about__item">
-                    <img className="about__item-icon" src={eye} alt="eye"/>
-                    <span className="about__item-text">Frontend Developer</span>
-                </li>
-            </ul>
+            <div className="about__bio-photo">
+                <Avatar className="about__avatar-img" avatar={photos.large} about/>
+            </div>
+            <div className="about__bio-description">
+                <h3 className="about__name">{fullName}</h3>
+                <ul className="about__items">
+                    <li className="about__item">
+                        <span className="about__item-icon"><Brain className="icon-green"/></span>
+                        <span className="about__item-text">{status}</span>
+                    </li>
+                    <li className="about__item">
+                        <span className="about__item-icon"><Briefcase className="icon-purple"/></span>
+                        <span className="about__item-text">{lookingJob}</span>
+                    </li>
+                    {aboutJob}
+                </ul>
+            </div>
+            <SocialNetworks {...contacts}/>
+            {settingButton}
         </div>
     )
 }
